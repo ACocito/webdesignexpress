@@ -9,12 +9,13 @@
     font-style: normal;
 }
 
-h1, h2, p, body {
+h2, p, body {
 	font-family:'aaarghnormal';
 }
 
-
-/*### HOME ###*/
+h1 {
+	font-family:'Amatic+SC'
+}
 
 h1 {
 	color:white;
@@ -36,8 +37,6 @@ h2 {
 
 .tagline {
 	color:rgb(12,23,41);
-	font-family: 'Raleway', sans-serif;
-	font-weight: lighter;
 	text-align: center;
 	padding: 20px;
 	border:1px;
@@ -47,39 +46,36 @@ h2 {
 	color:rgb(12,23,41);
 }
 
-li {
-	display: inline;
-}  
-li:hover { 
-color: yellow;
+
+.logo {
+	text-align=center;
+}
+
+.uk-nav, .uk-nav-offcanvas {
+	color:white;
 }
 
 
-.right {	
+.menu {	
 	text-align: right;
 }
 
-#hirebecome {
-	background-image: src="img/fond.jpg" width="100px" fixed center;
+.fa, .fa-bars {
+	font-size:20px;
 }
 
+
 .hire, .become {
-	border-radius: 50%;
-	padding: 1em;
-	border:1px;
-	color:red;
-	background-color:rgb(196,194,219);
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
+	margin: 20px;
+	border:1px;
 	} 
 
 .alephoto, .gregphoto {
-	border-radius: 50%;
-	padding: 1em;
+	margin: 20px;
 	border:1px;
-	color:red;
-	background-color:rgb(89,106,160);
 	} 
 
 .alessandra, .gregory {
@@ -87,6 +83,7 @@ color: yellow;
 }
 
 #contact i {
+	margin: 20px;
 	font-size:50px;
 	color:rgb(214,126,104);
 }
@@ -95,9 +92,38 @@ color: yellow;
 	font-family: 'aaarghnormal'
 }
 
-.navbar-default {
-	background-color: pink;
-	background-image: none;
+.testimonial {
+	img-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+border-radius: 50%;
+	padding: 1em;
+	border:1px;
+
+.progress-bar, .progress-bar-success {
+width: 40%;
+border: solid red;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+
+ 
+li:hover { 
+color: yellow;
+}
  
