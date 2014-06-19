@@ -4,62 +4,92 @@
 
 <head>
 	<title>FIND YOUR CM</title>
-	<meta charset="UFT-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"]]>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stylesheet/reset.css" type="text/css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="stylesheet/style.css" type="text/css">
+	<link rel="stylesheet" href="uikit.min.css" />
+        <script src="jquery.js"></script>
+        <script src="uikit.min.js"></script>
 </head>
 
 
 <body>
+
+<div class="container">
+
 	<h1>FIND YOUR CM</h1>
-	<p>The marketplace for community managers</p>
+	<p class="tagline">
+		The marketplace for community managers
+	</p>
 
 
-<nav>
-	<h3>MENU</h3>
-	<ul>
-		<li>
-			<a href="#team">
-				Team
-			</a>
-		</li>
-		<li>
-			<a href="#testimonial">
-				Testimonial
-			</a>
-		</li>
-		<li>
-			<a href="#contact">
-				Contact
-			</a>
-		</li>
-	</ul>
+<nav class="main-nav">
+	<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">FIND YOUR CM</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#team">TEAM</a></li>
+        <li><a href="#testimonial">TESTIMONIAL</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
-
+</nav>
 
 <section id="hirebecome"> 
 	<h2>HIRE A COMMUNITY MANAGER</h2>
-	<img src="img/hire.jpg" width="100px">
+	<img class="hire" src="img/hire.jpg" width="400px">
 
 	<h2>BECOME A COMMUNITY MANAGER</h2>
-	<img src="img/become.jpg" width="100px">
+	<img class="become" src="img/become.jpg" width="400px">
 </section>
 
 
 <section id="team">
-	<h2>TEAM</h2> 
-	<p>Alessandra COCITO - CEO</p>
-	<img src="img/alessandra.png" width="100px">
-	<p>Grégory BETTON - CTO</p>
-	<img src="img/gregory.jpg" width="100px">
+<h2>TEAM</h2> 
+	<div class="row">
+  		<div class="col-md-6">
+  			<div class="alessandra">
+  				<p>Alessandra COCITO - CEO</p>
+				<img class="alephoto" src="img/alessandra.png" width="200px">
+			</div>
+		</div>
+  	<div class="col-md-6">
+  			<div class="gregory">
+				<p>Grégory BETTON - CTO</p>
+				<img class="gregphoto" src="img/gregory.jpg" width="200px">
+  			</div>
+  		</div>
+	</div>
 </section>
 
 
 <section id="testimonial">
 	<h2>TESTIMONIAL</h2> 
 	<p>Watch this video</p>
-	<a href="http://bit.ly/FINDYOURCMvid" target="_blank">
-			memobaby
-		</a>
+	<iframe width="560" height="315" src="http://www.youtube.com/embed/M7LP41sotBg" frameborder="0" allowfullscreen></iframe>
 </section>
 
 
@@ -83,10 +113,19 @@
 </section>
 
 
+
+
 	
 
 	<footer>
 	</footer>
 
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	
 </body>
 </html>

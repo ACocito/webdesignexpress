@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('aaargh_normal_macroman/Aaargh-webfont.eot');
+    src: url('aaargh_normal_macroman/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('aaargh_normal_macroman/Aaargh-webfont.woff') format('woff'),
+         url('aaargh_normal_macroman/Aaargh-webfont.ttf') format('truetype'),
+         url('aaargh_normal_macroman/Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, p, body {
+	font-family:'aaarghnormal';
+}
+
+
+/*### HOME ###*/
+
+h1 {
+	color:white;
+	background-color:rgb(12,23,41);
+	text-align: center;
+	padding: 20px;
+	margin:015px,015px;
+	font-family: 'aaarghnormal';
+	font-weight: bolder;
+}
+
+h2 {
+	color:white;
+	background-color:rgb(34,51,95);
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.tagline {
+	color:rgb(12,23,41);
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	padding: 20px;
+	border:1px;
+} 
+
+.main-nav {
+	color:rgb(12,23,41);
+}
+
+li {
+	display: inline;
+}  
+li:hover { 
+color: yellow;
+}
+
+#hirebecome {
+	background-image: src="img/fond.jpg" width="100px" fixed center;
+}
+
+.hire, .become {
+	border-radius: 50%;
+	padding: 1em;
+	border:1px;
+	color:red;
+	background-color:rgb(196,194,219);
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	} 
+
+.alephoto, .gregphoto {
+	border-radius: 50%;
+	padding: 1em;
+	border:1px;
+	color:red;
+	background-color:rgb(89,106,160);
+	} 
+
+.alessandra, .gregory {
+	text-align:center;
+}
+
+#contact i {
+	font-size:50px;
+	color:rgb(214,126,104);
+}
+
+#team p {
+	font-family: 'aaarghnormal'
+}
+
+
+
+ 
