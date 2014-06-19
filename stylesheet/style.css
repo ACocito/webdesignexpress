@@ -7,7 +7,6 @@
          url('aaargh_normal_macroman/Aaargh-webfont.svg#aaarghnormal') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 h1, h2, p, body {
@@ -55,6 +54,11 @@ li:hover {
 color: yellow;
 }
 
+
+.right {	
+	text-align: right;
+}
+
 #hirebecome {
 	background-image: src="img/fond.jpg" width="100px" fixed center;
 }
@@ -91,6 +95,9 @@ color: yellow;
 	font-family: 'aaarghnormal'
 }
 
-
+.navbar-default {
+	background-color: pink;
+	background-image: none;
+}
 
  
