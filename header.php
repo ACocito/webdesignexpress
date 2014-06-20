@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/uikit.min.css"/>
 	<link rel="stylesheet" href="stylesheet/style.css" type="text/css">
 	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
 </head>
 
 
@@ -27,9 +28,9 @@
 	<div id="my-id" class="uk-offcanvas">
 		<div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
 	        <ul class="uk-nav uk-nav-offcanvas uk-nav-sub" data-uk-nav>
-	        	<li><a href="#team" onclick="jQuery.UIkit.offcanvas.offcanvas.hide();" data-uk-smooth-scroll="{offset:130}">TEAM</a></li>
-	        	<li><a href="#testimonial">TESTIMONIAL</a></li>
-	        	<li><a href="#contact">CONTACT</a></li>
+	        	<li><a href="#team" onclick="jQuery.UIkit.offcanvas.hide();" data-uk-smooth-scroll>TEAM</a></li>
+	        	<li><a href="#testimonial" onclick="jQuery.UIkit.offcanvas.hide();" data-uk-smooth-scroll>TESTIMONIAL</a></li>
+	        	<li><a href="#contact" onclick="jQuery.UIkit.offcanvas.hide();" data-uk-smooth-scroll>CONTACT</a></li>
 	        </ul>
 		</div>
 	</div>
