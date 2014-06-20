@@ -48,7 +48,9 @@ h2 {
 
 
 .logo {
-	text-align=center;
+	background:no-repeat;
+	height:200px;
+	width:200px;
 }
 
 .uk-nav, .uk-nav-offcanvas {
@@ -85,8 +87,8 @@ h2 {
 #contact i {
 	margin: 20px;
 	font-size:50px;
-	color:rgb(214,126,104);
-}
+	color:purple;
+} 
 
 #team p {
 	font-family: 'aaarghnormal'
@@ -97,15 +99,13 @@ h2 {
 }
 
 
+@media (max-width:400px) {
 
+h1, h2 {background-color:white;
+	color:black;
+}
 
-
-
-
-
-
-
-
+}
 
 
 
