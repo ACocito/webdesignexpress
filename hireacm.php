@@ -1,6 +1,10 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-<html>
+<?php include 'header.php'; ?>
 
 <head>
 	<title>HIRE A CM</title>
@@ -66,7 +70,11 @@
 </section>
 
 
+<?php include 'footer.php'; ?>
+
 </body>
+
+
 
 
 	

@@ -4,62 +4,23 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-<head>
-	<title>FIND YOUR CM</title>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="communitymanagement">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"]]>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<link rel="stylesheet" href="css/uikit.min.css"/>
-	<link rel="stylesheet" href="stylesheet/style.css" type="text/css">
-	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-</head>
-
+<?php include 'header.php'; ?>
 
 <body>
-
-<div class="menu">
-		<button class="uk-button" data-uk-offcanvas="{target:'#my-id'}">
-			<i class="fa fa-bars"></i>
-		</button>
-	</div>
-
-	<div id="my-id" class="uk-offcanvas">
-	    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-	        <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
-	        	<li><a href="#team">TEAM</a></li>
-	        	<li><a href="#testimonial">TESTIMONIAL</a></li>
-	        	<li><a href="#contact">CONTACT</a></li>
-	        </ul>
-		</div>
-	</div>
-
-
-	<h1>FIND YOUR CM</h1>
-	<p class="tagline">The marketplace for community managers</p>
-
-	<div class=logo>
-	<img id="logo" src="img/logo.png" width="200px">
-	</div>
 	
 <section id="hirebecomer"> 
 	<div class="row">
 		<div class="col-md-6">
 			<div class="hire">
     			<h2>HIRE A COMMUNITY MANAGER</h2>
-				<img class="hire" src="img/hire.jpg" width="400px">
+				<img class="hirephoto" src="img/hire.jpg" width="400px"> HIRE A COMMUNITY MANAGER
 			</div>
     	</div>
 	<div class="row">
 		<div class="col-md-6">
 			<div class="become">
 				<h2>BECOME A COMMUNITY MANAGER</h2>
-				<img class="become" src="img/become.jpg" width="400px">
+				<img class="becomephoto" src="img/become.jpg" width="400px">
 			</div>
 		</div>
 	</div>
@@ -87,7 +48,7 @@
 
 <section class= "text-center" id="testimonial">
 	<h2>TESTIMONIAL</h2> 
-	<p>Watch this video</p>
+	<p>Hear from our clients</p>
 	<iframe width="560" height="315" src="http://www.youtube.com/embed/M7LP41sotBg" frameborder="0" allowfullscreen></iframe>
 </section>
 
@@ -113,11 +74,30 @@
 
 
 
+<div class="experiment">
+	<div style="position:relative; height:400px">
+		<div style="position:absolute;z-index:1">
+			<img src="img/hire.jpg">
+		</div>
+	<div style="position:absolute;top:360px; widht:600px; height:400px; z-index:2; font-size:200%">
+		<center><b>HIRE A CM</b><center>
+			</div>
+		</div>
 
+
+    <p>HIRE A COMMUNITY MANAGER</p>
+				<img class="hirephoto" src="img/hire.jpg" width="400px"> HIRE A COMMUNITY MANAGER
+			</div>
+  </div>
 	
 
-	<footer>
-	</footer>
+
+
+
+
+
+<?php include 'footer.php'; ?>
+	
 
 </div>
 
