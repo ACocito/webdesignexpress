@@ -73,23 +73,26 @@
 </section>
 
 
+<div id="hirebecome1">
+	<div id="container1">
+		<div class="row">
+			<div class="col-md-6">
+	    	<img class="expeimg1" src="img/hire.jpg"/>
+	    		<div class="expetext1">
+	    			<h3>HIRE A COMMUNITY MANAGER</h3>
+	    		</div>
+			</div>
 
-<div class="experiment">
-	<div style="position:relative; height:400px">
-		<div style="position:absolute;z-index:1">
-			<img src="img/hire.jpg">
-		</div>
-	<div style="position:absolute;top:360px; widht:600px; height:400px; z-index:2; font-size:200%">
-		<center><b>HIRE A CM</b><center>
+			<div class="col-md-6">
+			<img class="expeimg1" src="img/become.jpg"/>
+				<div class="expetext1">
+		    		<h3>BECOME A COMMUNITY MANAGER</h3>
+		    	</div>
 			</div>
 		</div>
+	</div>
+</div>
 
-
-    <p>HIRE A COMMUNITY MANAGER</p>
-				<img class="hirephoto" src="img/hire.jpg" width="400px"> HIRE A COMMUNITY MANAGER
-			</div>
-  </div>
-	
 
 
 
