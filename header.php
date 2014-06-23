@@ -6,12 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"]]>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap-theme.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<link rel="stylesheet" href="css/uikit.min.css"/>
-	<link rel="stylesheet" href="style.css" type="text/css">
-	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/uikit.min.css"/>
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css" type="text/css">
+	<script src="<?php bloginfo('template_directory'); ?>js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
 </head>
 
@@ -38,7 +38,7 @@
 	<h1>FIND YOUR CM</h1>
 
 	<div class="logo">
-		<img id="logo" src="img/logo.png" width="100px">
+		<img id="logo" src="<?php bloginfo('template_directory'); ?>/img/logo.png" width="100px">
 	</div>
 
 	<div class="tagline">

@@ -14,14 +14,14 @@
 		<div class="container1">
 			<div class="row">
 				<div class="col-md-6">
-		    	<img class="hirephoto" src="img/hire.jpg"/>
+		    	<img class="hirephoto" src="<?php bloginfo('template_directory'); ?>/img/hire.jpg"/>
 		    		<div class="expetext">
 		    			<a href="hireacm.php"><h3>HIRE A COMMUNITY MANAGER</h3></a>
 		    		</div>
 				</div>
 
 				<div class="col-md-6">
-				<img class="becomephoto" src="img/become.jpg"/>
+				<img class="becomephoto" src="<?php bloginfo('template_directory'); ?>/img/become.jpg"/>
 					<div class="expetext">
 			    		<a href="becomeacm.php"><h3>BECOME A COMMUNITY MANAGER</h3></a>
 			    	</div>
@@ -40,13 +40,13 @@
 				<div class="col-md-6">
 					<div class="alessandra">
 						<p>Alessandra COCITO - CEO</p>
-						<img class="alephoto" src="img/alessandra.png" width="200px">
+						<img class="alephoto" src="<?php bloginfo('template_directory'); ?>/img/alessandra.png" width="200px">
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="gregory">
 						<p>Grégory BETTON - CTO</p>
-						<img class="gregphoto" src="img/gregory.jpg" width="200px">
+						<img class="gregphoto" src="<?php bloginfo('template_directory'); ?>/img/gregory.jpg" width="200px">
 					</div>
 				</div>
 			</div>
