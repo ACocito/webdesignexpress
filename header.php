@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<link rel="stylesheet" href="css/uikit.min.css"/>
-	<link rel="stylesheet" href="stylesheet/style.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
 	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
 </head>
@@ -37,9 +37,13 @@
 
 	<h1>FIND YOUR CM</h1>
 
-	<div class=logo>
-		<img id="logo" src="img/logo.png" width="200px">
-		<p class="tagline">The marketplace for community managers</p>
+	<div class="logo">
+		<img id="logo" src="img/logo.png" width="100px">
 	</div>
+
+	<div class="tagline">
+	<p class="tagline">The marketplace for community managers</p>
+	</div>
+
 </header>
 

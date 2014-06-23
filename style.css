@@ -9,13 +9,10 @@
     font-style: normal;
 }
 
-h2, p, body {
+h1, h2, h3, p, body {
 	font-family:'aaarghnormal';
 }
 
-h1 {
-	font-family:'Amatic+SC'
-}
 
 h1 {
 	color:rgb(12,23,41);
@@ -23,8 +20,8 @@ h1 {
 	text-align: center;
 	padding: 20px;
 	margin:015px,015px;
-	font-family: 'aaarghnormal';
 	font-weight: bolder;
+	font-size:35px;
 }
 
 h2 {
@@ -32,7 +29,13 @@ h2 {
 	box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
 	text-align: center;
 	padding: 20px;
+	margin:015px,015px;
 	font-weight: bold;
+	font-size:25px;
+}
+
+.logo {
+	text-align: center;
 }
 
 .tagline {
@@ -43,16 +46,12 @@ h2 {
 	box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
 } 
 
-.main-nav {
-	color:rgb(12,23,41);
+.fa, .fa-bars {
+	font-size:20px;
 }
 
 .uk-nav, .uk-nav-offcanvas {
 	color:white;
-}
-
-.fa, .fa-bars {
-	font-size:20px;
 }
 
 #container1
@@ -62,23 +61,37 @@ h2 {
 	height:100%;
 }
 
-#container1 img {
+#container1, .hirephoto, .becomephoto {
 	display:block;
 	width:100%;
-	opacity:0.5;
+	opacity:0.7;
 }
 
 #container1, .expetext {
+	color: white;
 	height:100px;
-	/*margin-top:-50px;*/
 	top:50%;
 	width:100%;
-	color: white;
 	font-size: 60px;
 	text-align: center;
 	text-shadow: 2px 3px 10px rgba (0,0,0,0,.75);
 }
 
+.hirephoto, .becomephoto {
+	position:relative;
+}
+
+.expetext {
+	position:absolute;
+}
+
+h3 { 
+   color: white;
+   text-shadow: 2px 3px 10px rgba (0,0,0,0,.75); 
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
 
 .alephoto, .gregphoto {
 	margin: 20px;

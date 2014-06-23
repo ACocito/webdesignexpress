@@ -8,21 +8,22 @@
 
 <body>
 
-<section id="hirebecome">	
-	<div id="hirebecome">
-		<div id="container1">
+
+<section class="hirebecome">	
+	<div class="hirebecome">
+		<div class="container1">
 			<div class="row">
 				<div class="col-md-6">
 		    	<img class="hirephoto" src="img/hire.jpg"/>
 		    		<div class="expetext">
-		    			<h3>HIRE A COMMUNITY MANAGER</h3>
+		    			<a href="hireacm.php"><h3>HIRE A COMMUNITY MANAGER</h3></a>
 		    		</div>
 				</div>
 
 				<div class="col-md-6">
 				<img class="becomephoto" src="img/become.jpg"/>
 					<div class="expetext">
-			    		<h3>BECOME A COMMUNITY MANAGER</h3>
+			    		<a href="becomeacm.php"><h3>BECOME A COMMUNITY MANAGER</h3></a>
 			    	</div>
 				</div>
 			</div>
@@ -31,9 +32,9 @@
 </section>
 
 
-<section id="team">
-	<div id="team">
-		<div id="container2">
+<section class="team">
+	<div class="team">
+		<div class="container2">
 			<h2>TEAM</h2> 
 			<div class="row">
 				<div class="col-md-6">

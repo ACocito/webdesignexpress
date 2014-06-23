@@ -25,7 +25,7 @@
 
 <!-- Button trigger modal -->
 <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
+  Get your 
 </button>
 
 <!-- Modal -->
